@@ -20,6 +20,7 @@ public class Task3 {
         }
         for(int i = 0; i < size; i++){
             for(int j = 0; j < size; j++) {
+                if (X[i][j] == 0) continue;
                 if(X[i][j] > 0) pos++;
                 else neg++;
             }
